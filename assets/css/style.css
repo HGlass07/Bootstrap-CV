@@ -45,13 +45,26 @@ body {
     margin-bottom: 20px;
 }
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
 .logo {
     background: url("../images/test-image.jpg");
     background-size: cover;
     background-position: center;
     min-height: 360px;
     max-width: 485px;
-    max-height: 447px;
+    max-height: 360px;
     background-repeat: no-repeat;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
