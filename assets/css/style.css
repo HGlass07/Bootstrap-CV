@@ -1,12 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 body {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.bg-color-name-title {
+    background-color: rgb(116, 116, 113);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+
+.ui-menu-color-home {
+    background-color: rgb(217, 156, 81);
+}
+
+.ui-menu-color-CV {
+    background-color: rgb(217, 208, 81);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(202, 100, 17);
+}
+
+.ui-menu-color-download {
+    background-color: rgb(238, 228, 197);
+}
+
+.header {
+    margin: 0px;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.name {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.title {
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
     background: url("../images/test-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    min-height: 360px;
+    max-width: 485px;
+    max-height: 447px;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
 }
