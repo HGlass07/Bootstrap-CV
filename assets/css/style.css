@@ -30,7 +30,6 @@ body {
     margin-right: 0px;
 }
 
-
 /*menu items styling*/
 .menuitem {
     height: 120px;
@@ -45,6 +44,19 @@ body {
     text-decoration: none;
 }
 
+.menuitem a :hover {
+    color:gold;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .menuitem a i {
     color: white;
     margin: 3px;
@@ -53,12 +65,8 @@ body {
     font-size: 26px;
 }
 
-a:hover {
-    color:#c65200; 
-    text-decoration:none; 
-    cursor:pointer;  
-}
 
+/*menu colour syyling*/
 .ui-menu-color-home {
     background-color: rgb(31, 54, 61);
 }
@@ -68,11 +76,11 @@ a:hover {
 }
 
 .ui-menu-color-contact {
-    background-color: rgb(140, 28, 19);
+    background-color:rgb(61, 63, 63);
 }
 
 .ui-menu-color-download {
-    background-color: rgb(248, 198, 48);
+    background-color: rgb(96, 113, 141);
 }
 
 /*styling to remove gutters caused by bootstrap styling*/
@@ -88,10 +96,14 @@ a:hover {
     background: url("../images/test-image.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    min-height: 290px;
     max-width: 485px;
     background-repeat: no-repeat;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
+}
+
+#nav {
+    margin: 0px;
 }
