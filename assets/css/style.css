@@ -4,32 +4,11 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
-.bg-color-name-title {
-    background-color: rgb(116, 116, 113);
-    color: rgb(255, 255, 255);
-    margin-right: 0px;
-}
-
-.ui-menu-color-home {
-    background-color: rgb(217, 156, 81);
-}
-
-.ui-menu-color-CV {
-    background-color: rgb(217, 208, 81);
-}
-
-.ui-menu-color-contact {
-    background-color: rgb(202, 100, 17);
-}
-
-.ui-menu-color-download {
-    background-color: rgb(238, 228, 197);
-}
-
 .header {
     margin: 0px;
 }
 
+/*title card styling*/
 .heading {
     margin-left: 50px;
 }
@@ -45,6 +24,58 @@ body {
     margin-bottom: 20px;
 }
 
+.bg-color-name-title {
+    background-color: rgb(116, 116, 113);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+
+
+/*menu items styling*/
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+    font-size: 14px;
+}
+
+/*menu link styling*/
+.menuitem a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuitem a i {
+    color: white;
+    margin: 3px;
+    display: block;
+    padding-top: 30px;
+    font-size: 26px;
+}
+
+a:hover {
+    color:#c65200; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.ui-menu-color-home {
+    background-color: rgb(31, 54, 61);
+}
+
+.ui-menu-color-CV {
+    background-color: rgb(124, 144, 160);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(140, 28, 19);
+}
+
+.ui-menu-color-download {
+    background-color: rgb(248, 198, 48);
+}
+
+/*styling to remove gutters caused by bootstrap styling*/
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -53,18 +84,12 @@ body {
     font-size: 0;
 }
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
 .logo {
     background: url("../images/test-image.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 360px;
+    min-height: 300px;
     max-width: 485px;
-    max-height: 360px;
     background-repeat: no-repeat;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
