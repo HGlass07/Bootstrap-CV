@@ -44,8 +44,15 @@ body {
     text-decoration: none;
 }
 
-.menuitem a :hover {
-    color:gold;
+.menuitem:hover,
+.menuitem:hover span,
+.menuitem:hover i {
+    color: gold;
+    cursor: pointer;
+}
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0, 0, 0, 0.2)
 }
 
 .menuitem span {
@@ -64,7 +71,6 @@ body {
     padding-top: 30px;
     font-size: 26px;
 }
-
 
 /*menu colour syyling*/
 .ui-menu-color-home {
