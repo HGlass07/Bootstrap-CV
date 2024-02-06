@@ -8,6 +8,23 @@ body {
     margin: 0px;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color: white;
+    font-weight:600;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*title card styling*/
 .heading {
     margin-left: 50px;
@@ -112,4 +129,55 @@ body {
 
 #nav {
     margin: 0px;
+}
+
+/*footer styling*/
+footer {
+    background: rgb(116, 116, 113);
+    min-height: 120px;
+    color: white;
+    text-align: center;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: gold;
+}
+
+.external-links li {
+    padding: 8px;
+}
+
+.external-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: rgb(31, 54, 61);
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.external-links li a i:hover {
+    color: gold;
+}
+
+#footer-details {
+    padding: 20px;
 }
