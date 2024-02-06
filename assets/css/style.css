@@ -152,6 +152,17 @@ h1,h2,h3,h4 {
     margin-bottom: 40px;
 }
 
+/*reasons icons*/
+.three-reasons-icon {
+    font-size: 26px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    
+}
+
+
 /*footer styling*/
 footer {
     background: rgb(116, 116, 113);
