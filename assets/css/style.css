@@ -134,19 +134,60 @@ h1,h2,h3,h4 {
 
 /*contact info styling*/
 
+
 .bg-color-personal-info {
     background-color: lightslategray;
     color: white;
 }
 
+
+/*alternative personal info styling*/
 .key{
-    font-size: larger;
+    font-size: x-large;
     font-weight: 600;
 }
 
 .value {
     font-weight: large;
+    font-size: large;
 }
+
+
+
+/*alternative personal info styling
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+*/
 
 
 
@@ -167,6 +208,7 @@ h1,h2,h3,h4 {
 
 .section-heading {
     font-weight: 600;
+    font-size: xx-large;
     margin-top: 25px;
     margin-bottom: 40px;
 }
