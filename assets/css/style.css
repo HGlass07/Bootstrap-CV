@@ -281,3 +281,18 @@ footer {
     background-color: lightslategray;
     color: white;
 }
+
+/*proficiencies styling*/
+
+.prof-icons-section {
+    margin-bottom: 15px;
+}
+
+.prof-icons {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.profs {
+    font-size: x-large;
+}
