@@ -291,8 +291,9 @@ footer {
 .prof-icons {
     padding: 10px;
     font-size: 26px;
+    margin-right: 5px;
 }
 
-.profs {
-    font-size: x-large;
+.icon-titles {
+    font-family: 'Rajdhani', sans-serif;
 }
