@@ -318,7 +318,6 @@ footer {
 }
 
 /*proficiencies styling*/
-
 .prof-icons-section {
     margin-bottom: 15px;
 }
@@ -331,4 +330,16 @@ footer {
 
 .icon-titles {
     font-family: 'Rajdhani', sans-serif;
+}
+
+/*contact page styling*/
+.bg-color-contact {
+    background-color: white;
+}
+
+/*form styling*/
+.contact-heading {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
