@@ -338,8 +338,45 @@ footer {
 }
 
 /*form styling*/
-.contact-heading {
+.contact-info {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+.contact-title {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    color: gold;
+    background-color:rgb(31, 54, 61) ;
+}
+
+.contact-form input,
+.contact-form textarea{
+   border-color: black;
+   margin-bottom: 10px;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
