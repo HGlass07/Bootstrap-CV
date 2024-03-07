@@ -103,6 +103,10 @@ h1,h2,h3,h4 {
     background-color:rgb(61, 63, 63);
 }
 
+.ui-menu-color-interests {
+    background-color: cadetblue;
+}
+
 .ui-menu-color-download {
     background-color: rgb(96, 113, 141);
 }
