@@ -372,6 +372,11 @@ button[type="submit"]:hover {
 .contact-form textarea{
    border-color: black;
    margin-bottom: 10px;
+
+}
+#project-summary {
+    min-height:80px;
+    max-height: 300px;
 }
 
 @media(min-width: 992px) {
@@ -382,7 +387,6 @@ button[type="submit"]:hover {
         max-width: 50%;
     }
 }
-
 
 /*interests page styling*/
 
