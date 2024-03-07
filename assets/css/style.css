@@ -137,8 +137,6 @@ h1,h2,h3,h4 {
 }
 
 /*contact info styling*/
-
-
 .bg-color-personal-info {
     background-color: rgb(31, 54, 61);
     color: white;
@@ -383,4 +381,12 @@ button[type="submit"]:hover {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+
+/*interests page styling*/
+
+.bg-color-conferences {
+    background-color: cadetblue;
+    color: white;
 }
