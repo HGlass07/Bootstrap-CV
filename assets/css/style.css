@@ -107,9 +107,14 @@ h1,h2,h3,h4 {
     background-color: cadetblue;
 }
 
+.ui-menu-color-github {
+    background-color: lightsteelblue
+}
+
 .ui-menu-color-download {
     background-color: rgb(96, 113, 141);
 }
+
 
 /*styling to remove gutters caused by bootstrap styling*/
 .list-inline-item:not(:last-child) {
@@ -189,8 +194,6 @@ h1,h2,h3,h4 {
     width: 60%;
 }
 */
-
-
 
 /*reasons styling*/
 .bg-color-three-reasons {
