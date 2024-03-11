@@ -47,80 +47,14 @@
             </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 bg-color-conferences section-column">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading uppercase">
-                            Conferences And Meetups Attended
-                        </h3>
-                    </div>
-                </div>
-                <div id="map"></div>
-            </div>
-            <div class="col-md-8 bg-color-groups">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">My Groups And Societies</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Lorum Ipsum</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, dui sit amet elementum placerat, sem lectus mollis nibh, eget lobortis leo erat sagittis orci. Vivamus ultricies varius est in imperdiet. Proin eu metus at odio tristique commodo. In convallis libero in ante venenatis sodales. Ut et euismod ligula. Aliquam eleifend nunc eu aliquet sollicitudin. Pellentesque a facilisis lorem. Donec dignissim id eros placerat porta. Sed et leo erat.
-                                    <a href="" target="_blank">Lorum Ipsum</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Lorum Ipsum</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, dui sit amet elementum placerat, sem lectus mollis nibh, eget lobortis leo erat sagittis orci. Vivamus ultricies varius est in imperdiet. Proin eu metus at odio tristique commodo. In convallis libero in ante venenatis sodales. Ut et euismod ligula. Aliquam eleifend nunc eu aliquet sollicitudin. Pellentesque a facilisis lorem. Donec dignissim id eros placerat porta. Sed et leo erat.
-                                    <a href="" target="_blank">Lorum Ipsum</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Lorum Ipsum</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, dui sit amet elementum placerat, sem lectus mollis nibh, eget lobortis leo erat sagittis orci. Vivamus ultricies varius est in imperdiet. Proin eu metus at odio tristique commodo. In convallis libero in ante venenatis sodales. Ut et euismod ligula. Aliquam eleifend nunc eu aliquet sollicitudin. Pellentesque a facilisis lorem. Donec dignissim id eros placerat porta. Sed et leo erat.
-                                    <a href="" target="_blank">Lorum Ipsum</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Lorum Ipsum</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, dui sit amet elementum placerat, sem lectus mollis nibh, eget lobortis leo erat sagittis orci. Vivamus ultricies varius est in imperdiet. Proin eu metus at odio tristique commodo. In convallis libero in ante venenatis sodales. Ut et euismod ligula. Aliquam eleifend nunc eu aliquet sollicitudin. Pellentesque a facilisis lorem. Donec dignissim id eros placerat porta. Sed et leo erat.
-                                    <a href="" target="_blank">Lorum Ipsum</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search other user profiles</h5>
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
                 </div>
             </div>
         </div>
