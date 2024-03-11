@@ -397,3 +397,10 @@ button[type="submit"]:hover {
     background-color: cadetblue;
     color: white;
 }
+
+/*github page styling*/
+
+/*text-transform to make username case-accurate*/
+#my-name {
+    text-transform: none;
+}
