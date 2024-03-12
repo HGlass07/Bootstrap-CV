@@ -10,7 +10,7 @@ function sendMail() {
         (response) => {
             console.log('SUCCESS!', response.status, response.text);
             $("form")[0].reset();
-            document.getElementById("submitsuccess").innerHTML = "New text!";
+            document.getElementById("submitsuccess").innerHTML = "Thank you, your query has been submitted successfully";
         },
         (error) => {
             console.log('FAILED...', error);
